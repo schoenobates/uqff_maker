@@ -1,4 +1,11 @@
-# pip install huggingface_hub
+#!/usr/bin/env -S uv run --script
+#
+# requires-python = ">=3.10"
+# /// script
+# dependencies = [
+#   "huggingface_hub"
+# ]
+# ///
 
 from huggingface_hub import HfApi
 import huggingface_hub
